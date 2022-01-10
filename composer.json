@@ -1,0 +1,29 @@
+{
+    "name": "spyrmp/greek-vat-number-validator",
+    "type": "library",
+    "require": {
+        "laravel/framework": "5.5.* | 5.6.* | 5.7.* | 5.8.* | ^6.0 | ^7.0 | ^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Spyrmp\\GreekVatNumberValidator\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "spyrm",
+            "email": "spyros@onecode.gr"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spyrmp\\GreekVatNumberValidator\\GreekVatNumberValidatorProvider"
+            ]
+        }
+    }
+}
