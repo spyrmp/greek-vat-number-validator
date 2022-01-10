@@ -1,6 +1,6 @@
 # greek-vat-number-validator
 
-Laravel plugin for working days.Get working days from the current week. Use custom validation for Date fields.
+Laravel plugin for validating Greek vat number.
 
 ## Install
 
